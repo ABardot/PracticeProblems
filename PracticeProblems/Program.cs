@@ -52,6 +52,25 @@ namespace PracticeProblems
 
             // Favorite comic hero
             Console.WriteLine("Your favorite comic hero is {0}", favComic);
+
+
+        namespace ForLoopArrayHw
+    {
+        internal class Program
+        {
+            private static void Main()
+            {
+                int[] objectArray = new int[25];
+                for (int i = 0; i < 25; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
+                }
+            }
         }
+    }
+}
     }
 }
